@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pBK1guH4bu_zmOCUXD5L" name="Top Down">
-        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="434" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="kIHPj6zRgX1InL4mbEAz-1" value="Factorial calculator" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-1" value="sum of exponents&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="kIHPj6zRgX1InL4mbEAz-2" target="kIHPj6zRgX1InL4mbEAz-12" edge="1">
@@ -49,10 +49,10 @@
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-4" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="460" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="kIHPj6zRgX1InL4mbEAz-8" value="Get integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-8" value="Get integer &amp;gt;= 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="kIHPj6zRgX1InL4mbEAz-12" value="Find the factorial for the number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-12" value="For loop_counter in range(user_input)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-16" value="Show answer accordingly&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
