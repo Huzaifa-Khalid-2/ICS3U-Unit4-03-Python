@@ -2,31 +2,32 @@
 
 # Created by: Huzaifa Khalid
 # Created on: April 2022
-# This program uses a while loop
+# This program uses a while loop to do exponential functions
 
 
 def main():
     # this function uses a while loop
-    counter = 1
-    sum_number = 1
+    counter = 0
+    sum_number = 0
 
     # input
-    number_as_string = input("Enter a positive integer: ")
+    number_as_string = input("Enter a integer >= 0: ")
     # process & output
     print("")
     try:
         number_as_int = int(number_as_string)
-        if number_as_int == 0:
-            print("The sum is 1")
-        elif number_as_int < 0:
-            print("Not a positive integer")
+        if number_as_int < 0:
+            print(
+                "The number can't be {0}. Positive numbers only".format(
+                    number_as_string
+                )
+            )
         else:
-            while counter <= number_as_int:
-                sum_number = sum_number * counter
-                counter = counter + 1
-            print("The sum is {0}".format(sum_number))
+            for counter in range(number_as_int + 1):
+                sum_number = counter**2
+                print("{0}² = {1}".format(counter, sum_number))
     except Exception:
-        print("¯\_(ツ)_/¯ sorry fam not an integer.")
+        print("¯\(°_o)/¯ invalid input.")
     print("\nDone.")
 
 
